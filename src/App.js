@@ -42,7 +42,7 @@ function App() {
         <div>
           <button onClick={(e) => handleSignout(e)}>Sign out</button>
           <br/>
-          <img src={user.picture} alt="user pic"></img>
+          <img src={user.picture} alt="user pic" referrerpolicy="no-referrer"></img>
           <h3>{user.name}</h3>
         </div>
       }
